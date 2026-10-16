@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0B192C" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Circular Kuroshio Crest Symbol -->
+  <g id="kuroshio-symbol">
+    <!-- Outer Navy Ring -->
+    <circle cx="250" cy="180" r="105" fill="none" stroke="#162E4D" stroke-width="12" />
+
+    <!-- Crimson Sun / Dot -->
+    <circle cx="250" cy="132" r="17" fill="#C73E3A" />
+
+    <!-- Upper Ocean Wave -->
+    <path d="M 185 178 C 205 190, 222 190, 238 178 C 255 165, 276 160, 298 172 C 307 177, 314 182, 317 186" 
+          fill="none" stroke="#162E4D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Lower Ocean Wave -->
+    <path d="M 188 208 C 206 220, 224 220, 240 208 C 256 195, 278 190, 300 202 C 308 207, 314 212, 316 215" 
+          fill="none" stroke="#162E4D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Typography -->
+  <g id="kuroshio-typography" text-anchor="middle">
+    <!-- KUROSHIO -->
+    <text x="250" y="356" 
+          font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" 
+          font-size="44" 
+          font-weight="700" 
+          letter-spacing="14" 
+          fill="#162E4D">KUROSHIO</text>
+
+    <!-- DIGITAL TECHNOLOGY -->
+    <text x="250" y="398" 
+          font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" 
+          font-size="16" 
+          font-weight="500" 
+          letter-spacing="9" 
+          fill="#475569">DIGITAL TECHNOLOGY</text>
+  </g>
+</svg>
